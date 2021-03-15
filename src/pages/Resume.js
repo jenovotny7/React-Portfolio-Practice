@@ -83,6 +83,18 @@ const Resume = () => {
           
         </Row>
       </Container>
+<Container>
+<h2>Resume</h2>
+      <div className="d-flex justify-content-left mb-5 ">
+        <div className="skew resume-link text-center">
+          <a href="./resume.pdf" download>
+            <p className="anti-skew resume-link-text">
+              My Resume <i className="fas fa-file-download"></i>
+            </p>
+          </a>
+        </div>
+      </div>
+      </Container>
 
       
 
