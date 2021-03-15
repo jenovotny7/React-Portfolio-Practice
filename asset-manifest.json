@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfoliovandy/static/css/main.159b819c.chunk.css",
+    "main.js": "/portfoliovandy/static/js/main.645d4571.chunk.js",
+    "main.js.map": "/portfoliovandy/static/js/main.645d4571.chunk.js.map",
+    "runtime~main.js": "/portfoliovandy/static/js/runtime~main.db3924d0.js",
+    "runtime~main.js.map": "/portfoliovandy/static/js/runtime~main.db3924d0.js.map",
+    "static/js/2.e5ef0cf0.chunk.js": "/portfoliovandy/static/js/2.e5ef0cf0.chunk.js",
+    "static/js/2.e5ef0cf0.chunk.js.map": "/portfoliovandy/static/js/2.e5ef0cf0.chunk.js.map",
+    "index.html": "/portfoliovandy/index.html",
+    "precache-manifest.1969e6b04b8f08631a913aee3586a4e8.js": "/portfoliovandy/precache-manifest.1969e6b04b8f08631a913aee3586a4e8.js",
+    "service-worker.js": "/portfoliovandy/service-worker.js",
+    "static/css/main.159b819c.chunk.css.map": "/portfoliovandy/static/css/main.159b819c.chunk.css.map",
+    "static/media/Quiz.png": "/portfoliovandy/static/media/Quiz.10cbe355.png",
+    "static/media/Street.png": "/portfoliovandy/static/media/Street.ec787e6e.png",
+    "static/media/profile.jpg": "/portfoliovandy/static/media/profile.5ceaa8bc.jpg",
+    "static/media/profile3.jpeg": "/portfoliovandy/static/media/profile3.df68f09d.jpeg",
+    "static/media/weather.png": "/portfoliovandy/static/media/weather.4a6c67f0.png"
+  }
+}
