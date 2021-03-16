@@ -8,8 +8,7 @@ const NoMatch = () => {
       <Container fluid='true' className='container'>
         <h2>Page Not Found?</h2>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
-          sapiente pariatur, suscipit voluptatum odio tempora!
+         No match!
         </p>
       </Container>
       <Breadcrumb className='crumb'>
