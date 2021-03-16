@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4255a11ea6c37ad539af40be50b84d32",
+    "revision": "a78e21d0e19ba95ce3fd6ee37f72f625",
     "url": "/portfoliovandy/index.html"
   },
   {
-    "revision": "dd401d3c02ffe4111f86",
+    "revision": "2531e412eb03e93ee480",
     "url": "/portfoliovandy/static/css/main.159b819c.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfoliovandy/static/js/2.e5ef0cf0.chunk.js"
   },
   {
-    "revision": "dd401d3c02ffe4111f86",
-    "url": "/portfoliovandy/static/js/main.645d4571.chunk.js"
+    "revision": "2531e412eb03e93ee480",
+    "url": "/portfoliovandy/static/js/main.28a3ddb4.chunk.js"
   },
   {
     "revision": "2b674046a56d6ed8672d",
