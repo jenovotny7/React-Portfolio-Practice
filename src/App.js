@@ -1,33 +1,60 @@
-import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import React from 'react';
+import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import './App.css';
 
-import MyNavbar from './components/MyNavbar'
 
-import Home from './pages/Home'
-import About from './pages/About'
-import Contact from './pages/Contact'
-import Resume from './pages/Resume'
-import Portfolio from './pages/Portfolio'
-import NoMatch from './pages/NoMatch'
+import HomePage from './pages/Home';
+import AboutPage from './pages/About';
+import ContactPage from './pages/Contact';
+import Resume from './pages/Resume';
+import Portfolio from './pages/Portfolio';
 
-export class App extends Component {
+
+class App extends React.Component {
+  
+  constructor(props) {
+    super(props);
+    this.state = {
+      
+    }
+  }
+
   render() {
     return (
-      <>
-        <Router>
-          <MyNavbar />
-          <Switch>
-            <Route exact path='/' component={Home} />
-            <Route exact path='/about' component={About} />
-            <Route exact path="/resume" component={Resume} />
-            <Route exact path='/portfolio' component={Portfolio} />
-            <Route exact path='/contact' component={Contact} />
-            <Route component= {NoMatch} />
-          </Switch>
-        </Router>
-      </>
-    )
+      <Router>
+        <Container className="p-0" fluid={true}>
+          
+          <Navbar className="border-bottom" bg="transparent" expand="lg">
+            <Navbar.Brand>Jack Novotny</Navbar.Brand>
+
+            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
+            <Navbar.Collapse id="navbar-toggle">
+              <Nav className="ml-auto">
+                <Link className="nav-link" to="/">Home</Link>
+                <Link className="nav-link" to="/about">About</Link>
+                <Link className="nav-link" to="/resume">Resume</Link>
+                <Link className="nav-link" to="/portfolio">Portfolio</Link>
+                <Link className="nav-link" to="/contact">Contact</Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
+
+          <Route path="/" exact render={() => <HomePage />} />
+          <Route path="/about" render={() => <AboutPage/>} />
+          <Route path="/resume" render={() => <Resume />} />
+          <Route path="/portfolio" render={() => <Portfolio />} />
+          <Route path="/contact" render={() => <ContactPage/>} />
+          
+          
+          
+
+        </Container>
+      </Router>
+    );
   }
 }
 
-export default App
+export default App;

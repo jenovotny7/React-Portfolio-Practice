@@ -1,5 +1,6 @@
 import React from 'react'
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
+import { Navbar, Nav } from 'react-bootstrap'
+import {BrowserRouter as Link } from 'react-router-dom';
 
 
 const MyNavbar = () => {
@@ -8,16 +9,13 @@ const MyNavbar = () => {
       <Navbar collapseOnSelect expand='md' bg='dark' variant='dark'>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
-          <Nav className='mr-auto'>
-            <Nav.Link href='/'>
-              <i className='material-icons md-18'>home</i>
-            </Nav.Link>
-
-            <Nav.Link href='/about'>About</Nav.Link>
-            <Nav.Link href='/resume'>Resume</Nav.Link>
-            <Nav.Link href='/portfolio'>Portfolio</Nav.Link>
-            <Nav.Link href='/contact'>Contact</Nav.Link>
-          </Nav>
+        <Nav className="ml-auto">
+                <Link className="nav-link" to="/">Home</Link>
+                <Link className="nav-link" to="/about">About</Link>
+                <Link className="nav-link" to="/resume">Resume</Link>
+                <Link className="nav-link" to="/portfolio">Portfolio</Link>
+                <Link className="nav-link" to="/contact">Contact</Link>
+              </Nav>
         </Navbar.Collapse>
       </Navbar>
     </>
